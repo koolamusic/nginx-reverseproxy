@@ -11,7 +11,15 @@ Apps can also be paused, restarted or updated in an independent form. Changes to
 ### Usage
 1. Install `nginx` on your server (examples using apt):
 ```
-  sudo apt-get install nginx
+  sudo apt-get install nginx # ubuntu
+```
+
+```
+  sudo pkgin in nginx #joyent SmartOs
+```
+
+```
+  sudo dnf install nginx #Fedora
 ```
 
 2. Edit the `default` server block configuration file:
